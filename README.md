@@ -3,4 +3,4 @@ This is a tutorial for creating spring apps with spring security framework for b
 ### Read onothers branchs to follow step-by-step this tutorial
 
 
-### You need to read the branchs in ascending order.
+### You need to read the branchs in ascending order of branch levels.
