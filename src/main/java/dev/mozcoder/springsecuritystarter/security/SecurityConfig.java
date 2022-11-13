@@ -17,7 +17,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         auth.inMemoryAuthentication()
                 .withUser("Celso")
                 .password(passwordEncoder().encode("celso1999"))
-                .roles("user");
+                .roles("user")
+                .and()
+                .withUser("onother-user")
+                .password("onother-password")
+                .roles("role1","role2","ect");
+                //You can add mores users where
     }
 
     @Bean
